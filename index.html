@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <title>Sebas</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <style>
+    body {
+      background-image: url('./img/back.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Course and Examination Regulations</a>
+    <a href="#">Implementation Regulations</a>
+    <a href="#">Learn</a>
+    <a href="#">Teams</a>
+    <a href="#">MyHZ</a>
+    <a href="#">Github</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer; color: #ffb347;" onclick="openNav()">&#9776;</span>
+
+<body>
+  <div class="header">
+    <a href="index.html"><img src="./img/svb2.png" id="logo" class="center"></a>
+
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="faq.html">FAQ</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    </head>
+  </div>
+
+  <div class="container">
+    <div class="image">
+      <a><img src="./img/dev3.png" id="dev3" class="center"></a>
+    </div>
+    <div class="text">
+      <h3>
+        <a style="color: #ffb347; text-decoration: none;" href="https://nl.wikipedia.org/wiki/Droom">DROMEN</a> WERKT
+        NIET, MAAK WERK VAN JE DROMEN
+      </h3>
+      <h4>
+        Een <a style="color: #ffb347; text-decoration: none;" href="https://nl.wikipedia.org/wiki/Leven">leven</a> lang
+        leren
+      </h4>
+    </div>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+
+</html>
